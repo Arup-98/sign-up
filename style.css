@@ -1,0 +1,60 @@
+.formbody {
+    margin: auto;
+    width: 32%;
+    padding: 10px;
+    
+  }
+
+ .title{  
+    color: #269729;  
+  }
+
+  .inputform {
+    background-color: lightgrey;
+    width: 300px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.055), 0 0 0 2px rgba(255, 255, 255, 0.473),
+    0.3em .03em 1em rgba(0, 0, 0, 0.034),0.3em .03em 1em rgba(0, 0, 0, 0.452),0.3em .03em 1em rgba(0, 0, 0, 0.021);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+
+    }
+
+    h6{
+        padding: -15%;
+    }
+    input[type=text],input[type=number],input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+    input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 600px ) {
+   .formbody{
+    align-items: center;
+    margin-right: 8%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+   }
+  }
+
+    
